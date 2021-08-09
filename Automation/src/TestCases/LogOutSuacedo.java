@@ -15,7 +15,7 @@ public class LogOutSuacedo {
 
 public static void main(String[] args) throws InterruptedException {
 
-	System.setProperty("webdriver.chrome.driver", "D:\\Nueva carpeta (6)\\AutomationSaucedo\\Automation\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "c:\\chromedriver.exe");
 	WebDriver driver = new ChromeDriver();
 
 		driver.get("https://www.saucedemo.com/");

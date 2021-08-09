@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 public class HomePage {
 	
 	public void HomePageValidation() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\daniel.catano\\eclipse-workspace\\Automation\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "c:\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		//page load wait
 	     driver.manage().timeouts().pageLoadTimeout(5000, TimeUnit.MILLISECONDS);
