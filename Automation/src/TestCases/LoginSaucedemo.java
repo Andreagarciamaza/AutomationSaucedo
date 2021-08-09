@@ -7,6 +7,7 @@ import Pages.Dashboard;
 import Pages.HomePage;
 import Pages.LoginPage;
 
+
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.concurrent.TimeUnit;
@@ -14,12 +15,12 @@ import java.util.concurrent.TimeUnit;
 public class LoginSaucedemo {
 	
 public static void main(String[] args) throws InterruptedException {
-	
-	System.setProperty("webdriver.chrome.driver", "C:\\Users\\daniel.catano\\eclipse-workspace\\Automation\\chromedriver.exe");
+
+	System.setProperty("webdriver.chrome.driver", "D:\\Nueva carpeta (6)\\AutomationSaucedo\\Automation\\chromedriver.exe");
 	WebDriver driver = new ChromeDriver();
 
 		driver.get("https://www.saucedemo.com/");
-		
+
 	
 		//Creating object of Login page
 		LoginPage login = new LoginPage(driver);

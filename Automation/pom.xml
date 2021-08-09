@@ -8,11 +8,15 @@
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.1</version>
         <configuration>
-          <release>15</release>
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
       </plugin>
+
+
+
+
     </plugins>
   </build>
   
@@ -21,10 +25,18 @@
   	<dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
-      <version>3.14.0</version>
-      <classifier></classifier>
-    </dependency>
+      <version>3.141.59</version>
+     </dependency>
+
+
+
+
+
   </dependencies>
-  
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
 </project>
 

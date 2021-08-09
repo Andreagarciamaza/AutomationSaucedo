@@ -19,8 +19,8 @@ import java.util.concurrent.TimeUnit;
 public class ThankyouPageSaucedo {
 	
 public static void main(String[] args) throws InterruptedException {
-	
-	System.setProperty("webdriver.chrome.driver", "C:\\Users\\daniel.catano\\eclipse-workspace\\Automation\\chromedriver.exe");
+
+	System.setProperty("webdriver.chrome.driver", "D:\\Nueva carpeta (6)\\AutomationSaucedo\\Automation\\chromedriver.exe");
 	WebDriver driver = new ChromeDriver();
 
 		driver.get("https://www.saucedemo.com/");
